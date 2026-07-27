@@ -1,0 +1,142 @@
+# Standard label set for TextConvo public repositories.
+#
+# Apply with any label sync tool, or create them by hand under
+# Settings -> Labels on each repository. Keep names, colours, and meanings
+# identical everywhere so filters work across the whole account.
+
+# --- Type ------------------------------------------------------------------
+- name: bug
+  color: d73a4a
+  description: Something does not work as documented
+- name: enhancement
+  color: a2eeef
+  description: New example, capability, or developer-experience improvement
+- name: documentation
+  color: 0075ca
+  description: Documentation, README, or specification wording
+- name: question
+  color: d876e3
+  description: Usage question or request for guidance
+- name: maintenance
+  color: 5319e7
+  description: Dependencies, tooling, CI, or repository plumbing
+
+# --- Status ----------------------------------------------------------------
+- name: triage
+  color: ededed
+  description: Not yet reviewed by a maintainer
+- name: confirmed
+  color: 0e8a16
+  description: Reproduced and accepted
+- name: needs info
+  color: fbca04
+  description: Waiting on the reporter for details or a reproduction
+- name: blocked
+  color: b60205
+  description: Cannot proceed until something else lands
+- name: wontfix
+  color: ffffff
+  description: Out of scope, intentional, or not worth the cost
+- name: duplicate
+  color: cfd3d7
+  description: Already tracked elsewhere
+- name: stale
+  color: eeeeee
+  description: No activity for an extended period
+
+# --- Area ------------------------------------------------------------------
+- name: area/api-examples
+  color: 1d76db
+  description: Language examples for the public API
+- name: area/openapi
+  color: 1d76db
+  description: OpenAPI specification and schemas
+- name: area/postman
+  color: 1d76db
+  description: Postman collection and environment
+- name: area/webhooks
+  color: 1d76db
+  description: Webhook payloads, verification, and receivers
+- name: area/sample-apps
+  color: 1d76db
+  description: Demo applications
+- name: area/sdk
+  color: 1d76db
+  description: Official SDK surface
+- name: area/docs-site
+  color: 1d76db
+  description: Belongs on textconvo.ai rather than GitHub
+
+# --- Language --------------------------------------------------------------
+- name: lang/curl
+  color: c5def5
+  description: cURL and shell
+- name: lang/javascript
+  color: c5def5
+  description: JavaScript
+- name: lang/typescript
+  color: c5def5
+  description: TypeScript
+- name: lang/node
+  color: c5def5
+  description: Node.js
+- name: lang/python
+  color: c5def5
+  description: Python
+- name: lang/go
+  color: c5def5
+  description: Go
+- name: lang/java
+  color: c5def5
+  description: Java
+- name: lang/csharp
+  color: c5def5
+  description: C# and .NET
+- name: lang/php
+  color: c5def5
+  description: PHP
+
+# --- Channel ---------------------------------------------------------------
+- name: channel/sms
+  color: fef2c0
+  description: SMS
+- name: channel/rcs
+  color: fef2c0
+  description: RCS
+- name: channel/voice
+  color: fef2c0
+  description: Voice AI
+- name: channel/email
+  color: fef2c0
+  description: Email
+- name: channel/whatsapp
+  color: fef2c0
+  description: WhatsApp
+
+# --- Priority --------------------------------------------------------------
+- name: priority/critical
+  color: b60205
+  description: Drop other work
+- name: priority/high
+  color: d93f0b
+  description: Next in the queue
+- name: priority/normal
+  color: fbca04
+  description: Scheduled
+- name: priority/low
+  color: 0e8a16
+  description: Nice to have
+
+# --- Community -------------------------------------------------------------
+- name: good first issue
+  color: 7057ff
+  description: A small, well-scoped starting point
+- name: help wanted
+  color: 008672
+  description: Community contributions especially welcome
+- name: security
+  color: b60205
+  description: Security-relevant change (never used for undisclosed reports)
+- name: breaking change
+  color: b60205
+  description: Requires action from integrators
