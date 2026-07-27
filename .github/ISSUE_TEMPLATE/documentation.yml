@@ -1,0 +1,40 @@
+name: Documentation issue
+description: Report something inaccurate, missing, or confusing in documentation or a README.
+title: "docs: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reference documentation lives on [textconvo.ai/docs](https://textconvo.ai/docs). Reports about the website are welcome here and we will route them internally.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which surface?
+      options:
+        - textconvo.ai/docs
+        - A repository README
+        - OpenAPI specification
+        - Postman collection
+        - Code comments in an example
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link or file path
+      placeholder: https://textconvo.ai/docs#webhooks
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+      description: Optional, but the fastest path to a fix.
