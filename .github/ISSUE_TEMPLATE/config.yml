@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Ask the community
+    url: https://github.com/textconvo/.github/discussions/categories/q-a
+    about: Questions about the API, SDKs, webhooks, or examples. Answers are public so the next person finds them too.
   - name: Developer documentation
     url: https://textconvo.ai/docs
     about: API reference, authentication, webhooks, rate limits, and CRM guides. The website is the source of truth.
