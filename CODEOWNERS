@@ -10,51 +10,51 @@
 # ---------------------------------------------------------------------------
 # Default owner for everything in the repository
 # ---------------------------------------------------------------------------
-*                               @textconvo
+*                               @textconvo-admin
 
 # ---------------------------------------------------------------------------
 # Documentation and repository meta
 # ---------------------------------------------------------------------------
-*.md                            @textconvo
-/docs/                          @textconvo
-/.github/                       @textconvo
-/CODEOWNERS                     @textconvo
-/SECURITY.md                    @textconvo
+*.md                            @textconvo-admin
+/docs/                          @textconvo-admin
+/.github/                       @textconvo-admin
+/CODEOWNERS                     @textconvo-admin
+/SECURITY.md                    @textconvo-admin
 
 # ---------------------------------------------------------------------------
 # API surface: specifications and collections
 # ---------------------------------------------------------------------------
-/openapi.yaml                   @textconvo
-/openapi/                       @textconvo
-/collection/                    @textconvo
+/openapi.yaml                   @textconvo-admin
+/openapi/                       @textconvo-admin
+/collection/                    @textconvo-admin
 
 # ---------------------------------------------------------------------------
 # Examples, by language
 # ---------------------------------------------------------------------------
-/examples/curl/                 @textconvo
-/examples/javascript/           @textconvo
-/examples/typescript/           @textconvo
-/examples/node/                 @textconvo
-/examples/python/               @textconvo
-/examples/go/                   @textconvo
-/examples/java/                 @textconvo
-/examples/csharp/               @textconvo
-/examples/php/                  @textconvo
+/examples/curl/                 @textconvo-admin
+/examples/javascript/           @textconvo-admin
+/examples/typescript/           @textconvo-admin
+/examples/node/                 @textconvo-admin
+/examples/python/               @textconvo-admin
+/examples/go/                   @textconvo-admin
+/examples/java/                 @textconvo-admin
+/examples/csharp/               @textconvo-admin
+/examples/php/                  @textconvo-admin
 
 # ---------------------------------------------------------------------------
 # Webhooks: payloads, verification, receivers
 # ---------------------------------------------------------------------------
-/payloads/                      @textconvo
-/verification/                  @textconvo
-/receivers/                     @textconvo
+/payloads/                      @textconvo-admin
+/verification/                  @textconvo-admin
+/receivers/                     @textconvo-admin
 
 # ---------------------------------------------------------------------------
 # Sample applications
 # ---------------------------------------------------------------------------
-/apps/                          @textconvo
+/apps/                          @textconvo-admin
 
 # ---------------------------------------------------------------------------
 # Automation and release plumbing — review with extra care
 # ---------------------------------------------------------------------------
-/.github/workflows/             @textconvo
-/.github/CODEOWNERS             @textconvo
+/.github/workflows/             @textconvo-admin
+/.github/CODEOWNERS             @textconvo-admin
