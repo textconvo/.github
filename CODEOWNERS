@@ -1,0 +1,60 @@
+# CODEOWNERS — TextConvo public repositories
+#
+# Copy this file into .github/CODEOWNERS of any public repository and adjust the
+# path rules to match that repository's layout. The last matching pattern wins,
+# so order matters: put the most specific rules at the bottom.
+#
+# Replace the placeholder handles with real teams or maintainers before relying
+# on this for required reviews.
+
+# ---------------------------------------------------------------------------
+# Default owner for everything in the repository
+# ---------------------------------------------------------------------------
+*                               @textconvo
+
+# ---------------------------------------------------------------------------
+# Documentation and repository meta
+# ---------------------------------------------------------------------------
+*.md                            @textconvo
+/docs/                          @textconvo
+/.github/                       @textconvo
+/CODEOWNERS                     @textconvo
+/SECURITY.md                    @textconvo
+
+# ---------------------------------------------------------------------------
+# API surface: specifications and collections
+# ---------------------------------------------------------------------------
+/openapi.yaml                   @textconvo
+/openapi/                       @textconvo
+/collection/                    @textconvo
+
+# ---------------------------------------------------------------------------
+# Examples, by language
+# ---------------------------------------------------------------------------
+/examples/curl/                 @textconvo
+/examples/javascript/           @textconvo
+/examples/typescript/           @textconvo
+/examples/node/                 @textconvo
+/examples/python/               @textconvo
+/examples/go/                   @textconvo
+/examples/java/                 @textconvo
+/examples/csharp/               @textconvo
+/examples/php/                  @textconvo
+
+# ---------------------------------------------------------------------------
+# Webhooks: payloads, verification, receivers
+# ---------------------------------------------------------------------------
+/payloads/                      @textconvo
+/verification/                  @textconvo
+/receivers/                     @textconvo
+
+# ---------------------------------------------------------------------------
+# Sample applications
+# ---------------------------------------------------------------------------
+/apps/                          @textconvo
+
+# ---------------------------------------------------------------------------
+# Automation and release plumbing — review with extra care
+# ---------------------------------------------------------------------------
+/.github/workflows/             @textconvo
+/.github/CODEOWNERS             @textconvo
