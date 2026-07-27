@@ -9,7 +9,8 @@ TextConvo moves customer conversations across SMS, RCS, Voice AI, Email, and Wha
 Use one of these channels instead:
 
 1. **GitHub private vulnerability reporting** &mdash; on the affected repository, open the **Security** tab and choose **Report a vulnerability**. This keeps the thread private between you and the maintainers.
-2. **Direct contact** &mdash; [textconvo.ai/contact-us](https://textconvo.ai/contact-us) with the subject line **Security Report**. Ask for an encrypted channel if you need one before sharing details.
+2. **Email** &mdash; [security@textconvo.ai](mailto:security@textconvo.ai). This inbox is monitored by the engineering team. Ask for an encrypted channel if you need one before sharing details.
+3. **Contact form** &mdash; [textconvo.ai/contact-us](https://textconvo.ai/contact-us) with the subject line **Security Report**, if email is not an option for you.
 
 ## What to include
 
