@@ -32,3 +32,10 @@ Reference documentation is **not** duplicated here. [textconvo.ai/docs](https://
 ## Links
 
 [Website](https://textconvo.ai) &middot; [Developer Docs](https://textconvo.ai/docs) &middot; [API Reference](https://textconvo.ai/docs#lead-ingestion-api) &middot; [Webhooks](https://textconvo.ai/docs#webhooks) &middot; [Blog](https://textconvo.ai/blog) &middot; [LinkedIn](https://www.linkedin.com/company/textconvo/) &middot; [Contact](https://textconvo.ai/contact-us)
+
+## See it live
+
+Submit the [contact form](https://textconvo.ai/contact-us) and you get a direct line to **Ria**, the TextConvo AI orchestrator &mdash; call her for a live voice demo, or text her and watch the SMS AI reply in real time. A human follows up within one business day, and the same form is how API credentials, a source key, and a webhook secret are issued.
+
+Handed a TextConvo QR code at an event or in a demo? Scanning it opens the same conversation. The form is simply the path that works for everyone.
+
